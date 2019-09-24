@@ -1,2 +1,24 @@
 # otd_starter
 how to get started with Open Transit Data platform
+
+### 1. Install pip
+```
+sudo apt-get install python3-pip
+```
+### 2. Install virtualenv
+```
+sudo pip3 install virtualenv 
+```
+### 3. Create virtual environment and activate
+```
+virtualenv venv 
+source venv/bin/activate
+```
+### 4. Install requirements
+```
+pip install -r requirements.txt
+```
+### 5. Run starter.py
+```
+python starter.py
+```
