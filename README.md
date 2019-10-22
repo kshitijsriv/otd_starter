@@ -14,11 +14,15 @@ sudo pip3 install virtualenv
 virtualenv venv 
 source venv/bin/activate
 ```
-### 4. Install requirements
+### 5. Install google transit library
+```
+pip install --upgrade gtfs-realtime-bindings
+```
+### 6. Install requirements
 ```
 pip install -r requirements.txt
 ```
-### 5. Run starter.py
+### 7. Run starter.py
 ```
 python starter.py
 ```
