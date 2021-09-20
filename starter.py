@@ -3,7 +3,7 @@ import requests
 
 
 API_KEY = 'YOUR_API_KEY'
-API_URL = "https://otd.delhi.gov.in/api/realtime/VehiclePositions.pb?key=API_KEY"
+API_URL = f"https://otd.delhi.gov.in/api/realtime/VehiclePositions.pb?key={API_KEY}"
 feed = gtfs_realtime_pb2.FeedMessage()
 response = requests.get(API_URL)
 feed.ParseFromString(response.content)
