@@ -22,7 +22,11 @@ pip install --upgrade gtfs-realtime-bindings
 ```
 pip install -r requirements.txt
 ```
-### 7. Run starter.py
+### 7. Add you OTD API key in starter.py file
+```
+API_KEY = "YOUR_API_KEY"
+```
+### 8. Run starter.py
 ```
 python starter.py
 ```
